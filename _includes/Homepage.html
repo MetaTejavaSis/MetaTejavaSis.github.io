@@ -94,7 +94,6 @@
 </div>
 
 <script src="https://github.com/MetaTejavaSis/GraphvizOnline/blob/master/ace/ace.js" type="text/javascript" charset="utf-8"></script>
-<!--
 <script>
   (function (document) {
     //http://stackoverflow.com/a/10372280/398634
@@ -218,7 +217,7 @@
         worker.terminate();
       }
 
-      worker = new Worker("../_3rdparty/GraphvizOnline/full.render.js");
+      worker = new Worker("https://github.com/MetaTejavaSis/GraphvizOnline/blob/master/full.render.js");
       worker.addEventListener("message", function (e) {
         if (typeof e.data.error !== "undefined") {
           var event = new CustomEvent("error", {"detail": new Error(e.data.error.message)});
@@ -405,6 +404,5 @@
 
   })(document);
 </script>
-<script src="../_3rdparty/GraphvizOnline/viz.js" type="text/javascript" charset="utf-8"></script>
-<script src="../_3rdparty/GraphvizOnline/svg-pan-zoom.min.js" type="text/javascript" charset="utf-8"></script>
---!>
+<script src="https://github.com/MetaTejavaSis/GraphvizOnline/blob/master/viz.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://github.com/MetaTejavaSis/GraphvizOnline/blob/master/svg-pan-zoom.min.js" type="text/javascript" charset="utf-8"></script>
