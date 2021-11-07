@@ -5,11 +5,16 @@
    book0004 [label="단 카츠,\n 내 머리 속에 도마뱀 길들이기"]
    book0005 [label="임레 케르테스, \n운명"]
    book0006 [label="장 주네,\n 도둑일기"]
+   book0007 [label="아가타 크리스토프,\n 존재의 세가지 거짓말"]
+   book0008 [label="아가타 크리스토프,\n 문맹"]
+   book0009 [label="아가타 크리스토프,\n 어제"]
 
    theme0001 [shape="plain"][label="세계 질서와 개인"];
    theme0002 [shape="plain"][label="이방인(타자)의 문제\n타자 혐오가 위생 문제로 연결되는 구시대 체제"];
    theme0003 [shape="plain"][label="존재와 도덕"]
    theme0004 [shape="plain"][label="존재와 거짓말"]
+   theme0005 [shape="plain"][label="쌍둥이"]
+   theme0006 [shape="plain"][label="이집트 신화(남매결혼)"]
 
    book0001 -- book0002
    book0001 -- book0003
@@ -22,6 +27,14 @@
    book0006 -- theme0001
    book0006 -- theme0002
    book0006 -- theme0003
+   book0006 -- theme0004
+   book0007 -- theme0003
+   book0007 -- theme0004
+   book0007 -- theme0005
+   book0007 -- book0008
+   book0007 -- book0009
+   book0009 -- theme0005
+   book0009 -- theme0006
 
    theme0003 -- theme0004
  }
