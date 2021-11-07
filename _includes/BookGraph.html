@@ -1,15 +1,18 @@
 <pre id="editor">graph G{
    book0001 [label="쿠르초 말라파르테,\n 망가진 세계"]
+   book0002 [label="한병철, \n피로사회"]
+   book0003 [label="어니스트 베커, \n죽음의 부정"]
+   book0004 [label="단 카츠,\n 내 머리 속에 도마뱀 길들이기"]
+   book0005 [label="임레 케르테스, \n운명"]
 
    theme0001 [shape="plain"][label="세계 질서와 개인"];
    theme0002 [shape="plain"][label="이방인(타자)의 문제\n타자 혐오가 위생 문제로 연결되는 구시대 체제"];
 
-   theme0001 -- theme0002
-
-   "단 카츠,\n 내 머리 속에 도마뱀 길들이기"
-   book0001 --"한병철, \n피로사회"
-   book0001 --"어니스트 베커, \n죽음의 부정"
-   book0001 --"임레 케르테스, \n운명" [taillabel="세계 질서와 개인"]
-
+   book0001 -- book0002
+   book0001 -- book0003
+   book0001 -- theme0001
+   book0005 -- theme0001
+   book0001 -- theme0002
+   book0002 -- theme0002
  }
 </pre>
