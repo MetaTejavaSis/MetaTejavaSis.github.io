@@ -1,13 +1,17 @@
 <pre id="editor">graph G{
-   book0001 [label="쿠르초 말라파르테,\n 망가진 세계"]
-   book0002 [label="한병철, \n피로사회"]
-   book0003 [label="어니스트 베커, \n죽음의 부정"]
-   book0004 [label="단 카츠,\n 내 머리 속에 도마뱀 길들이기"]
-   book0005 [label="임레 케르테스, \n운명"]
-   book0006 [label="장 주네,\n 도둑일기"]
-   book0007 [label="아가타 크리스토프,\n 존재의 세가지 거짓말"]
-   book0008 [label="아가타 크리스토프,\n 문맹"]
-   book0009 [label="아가타 크리스토프,\n 어제"]
+   book0001 [shape="rect"][label="쿠르초 말라파르테,\n 망가진 세계"]
+   book0002 [shape="rect"][label="한병철, \n피로사회"]
+   book0003 [shape="rect"][label="어니스트 베커, \n죽음의 부정"]
+   book0004 [shape="rect"][label="단 카츠,\n 내 머리 속에 도마뱀 길들이기"]
+   book0005 [shape="rect"][label="임레 케르테스, \n운명"]
+   book0006 [shape="rect"][label="장 주네,\n 도둑일기"]
+   book0007 [shape="rect"][label="아가타 크리스토프,\n 존재의 세가지 거짓말"]
+   book0008 [shape="rect"][label="아가타 크리스토프,\n 문맹"]
+   book0009 [shape="rect"][label="아가타 크리스토프,\n 어제"]
+   book0010 [shape="rect"][label="존 하비,\n 이토록 황홀한 블랙"]
+   book0011 [shape="rect"][label="막스 피카르트,\n 침묵의 세계"]
+   book0012 [shape="rect"][label="알베르토 망구엘,\n 독서의 역사"]
+   book0013 [shape="rect"][label="메리언 울프,\n 책읽는 뇌"]
 
    theme0001 [shape="plain"][label="세계 질서와 개인"];
    theme0002 [shape="plain"][label="이방인(타자)의 문제\n타자 혐오가 위생 문제로 연결되는 구시대 체제"];
@@ -35,6 +39,9 @@
    book0007 -- book0009
    book0009 -- theme0005
    book0009 -- theme0006
+   book0010 -- book0011
+   book0011 -- book0012
+   book0012 -- book0013
 
    theme0003 -- theme0004
  }
