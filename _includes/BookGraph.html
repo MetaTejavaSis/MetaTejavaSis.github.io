@@ -34,6 +34,7 @@
    book0033 [shape="rect"][label="장하석,\n과학, 철학을 만나다"]
    book0034 [shape="rect"][label="장하석,\n물은 H20인가?"][color="azure2"]
    book0035 [shape="rect"][label="Sönke Ahrens,\n How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers"]
+   book0036 [shape="rect"][label="윌리엄 바이어스, 수학자는 어떻게 생각하는가?"][color="azure2"]
 
    theme0001 [shape="plain"][label="세계 질서와 개인"];
    theme0002 [shape="plain"][label="이방인(타자)의 문제\n타자 혐오가 위생 문제로 연결되는 구시대 체제"];
@@ -55,6 +56,8 @@
    theme0018 [shape="plain"][label="질문"]
    theme0019 [shape="plain"][label="측정"]
    theme0020 [shape="plain"][label="노트의 중요성"]
+   theme0021 [shape="plain"][label="반지성주의"]
+   theme0022 [shape="plain"][label="측정기구"]
 
    book0001 -- book0002
    book0001 -- book0003
@@ -104,8 +107,12 @@
    book0027 -- theme0016
    book0027 -- theme0017
    book0028 -- theme0017
+   book0028 -- book0036
+   book0029 -- theme0012
+   book0029 -- theme0022
    book0029 -- theme0017
    book0029 -- theme0018
+   book0029 -- book0034
    book0030 -- theme0018
    book0030 -- book0031
    book0030 -- theme0019
@@ -114,10 +121,13 @@
    book0034 -- theme0019
    book0035 -- theme0017
    book0035 -- theme0020
+   book0036 -- theme0017
+   book0036 -- theme0018
 
    theme0003 -- theme0004
    theme0010 -- theme0012
    theme0011 -- theme0012
    theme0017 -- theme0020
+   theme0017 -- theme0022
  }
 </pre>
