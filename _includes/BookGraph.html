@@ -1,38 +1,15 @@
 <pre id="editor">graph G{
-  label="Comic Sans MS"
-  fontname="Comic Sans MS"
-   "쿠르초 말라파르테,\n 망가진 세계"--"한병철, \n피로사회"
-   "쿠르초 말라파르테,\n 망가진 세계"--"어니스트 베커, \n죽음의 부정"
-   "쿠르초 말라파르테,\n 망가진 세계"--"임레 케르테스, \n운명" [taillabel="세계 질서와 개인"]
+   book0001 [label="쿠르초 말라파르테,\n 망가진 세계"]
+
+   theme0001 [shape="plain"][label="세계 질서와 개인"];
+   theme0002 [shape="plain"][label="이방인(타자)의 문제\n타자 혐오가 위생 문제로 연결되는 구시대 체제"];
+
+   theme0001 -- theme0002
+
+   "단 카츠,\n 내 머리 속에 도마뱀 길들이기"
+   book0001 --"한병철, \n피로사회"
+   book0001 --"어니스트 베커, \n죽음의 부정"
+   book0001 --"임레 케르테스, \n운명" [taillabel="세계 질서와 개인"]
+
  }
 </pre>
-
-<!--
-<pre id="editor">digraph G {
-   subgraph cluster_0 {
-     style=filled;
-     color=lightgrey;
-     node [style=filled,color=white];
-     a0 -> a1 -> a2 -> a3;
-     label = "process #1";
-   }
-
-   subgraph cluster_1 {
-     node [style=filled];
-     b0 -> b1 -> b2 -> b3;
-     label = "process #2";
-     color=blue
-   }
-   start -> a0;
-   start -> b0;
-   a1 -> b3;
-   b2 -> a3;
-   a3 -> a0;
-   a3 -> end;
-   b3 -> end;
-
-   start [shape=Mdiamond];
-   end [shape=Msquare];
- }
-</pre>
---!>
