@@ -1347,6 +1347,14 @@ label.srs-toggle {
     margin-right: 10px;
 }
 
+/* Cytoscape start*/
+#cy {
+  width: 300px;
+  height: 300px;
+  display: block;
+}
+/* Cytoscape end*/
+
 @media screen and (max-width: 1200px){
     .sn-right,
     .mn-right {
