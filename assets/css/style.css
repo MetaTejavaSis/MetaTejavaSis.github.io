@@ -1349,8 +1349,8 @@ label.srs-toggle {
 
 /* Cytoscape start*/
 #cy {
-  width: 20%;
-  height: 20%;
+  width: 500px;
+  height: 500px;
   display: block;
 }
 /* Cytoscape end*/
