@@ -273,4 +273,6 @@ Optional Can Delete Below
     content: "◆";
     visibility: visible;
   }
+/* Change the font size of katex */  
+.katex { font-size: 1em !important; } 
 ```
